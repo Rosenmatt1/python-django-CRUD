@@ -57,7 +57,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
-        'OPTIONS': {
+        'OPTIONS': {CREATE USER douglas WITH PASSWORD 'vamointer';
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'python_django_CRUD.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EmployeeDB',
+        'NAME': 'employeedb1',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': 'Matty18!',
         'HOST': 'localhost'
     }
 }
